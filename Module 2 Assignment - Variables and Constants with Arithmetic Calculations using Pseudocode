@@ -1,0 +1,44 @@
+Kenneth Seiler
+
+Module 2 Assignment - Variables and Constants with Arithmetic Calculations using Pseudocode
+
+SDEV 120
+
+10/21/2024
+
+
+Exercise 1:
+
+// This program prompts the user for refrigerator model name, interior height, width, 
+// and depth in inches to calculate refrigerator capacity. Then to display model and 
+// capacity in feet.
+
+start 
+	input modelName	//Ask user for model name of refrigerator
+	input interiorHeight	//Ask user for the interior height in inches
+	input interiorWidth	//Ask user for the interior width in inches
+	input interiorDepth	//Ask user for the interior depth in inches
+	capacity = (interiorHeight * interiorWidth * interiorDepth) / 1728	//Calculate capacity 
+	print modelName	//Display the model name
+	print capacity		//Display the capacity in cubic feet
+stop
+
+
+Exercise 2:
+
+// This program determines the new account balance if the account was overdrawn.
+
+start
+	Declarations
+		num accountBalance = 0
+		num overDrawnTimes 
+		num overDrawnFee
+		num newAccountBalance
+	input accountBalance		//Collect the current account balance
+	input overDrawnTimes	//Collect the number of times the account was overdrawn
+	overDrawnFee = overDrawnTimes (accountBalance * .01 – 5) //Calculate overdrawn fee
+	newAccountBalance = accountBalance - overDrawnFee   	      //Calculate to balance
+            print overDrawnFee		//Display the overdrawn fee
+	print newAccountBalance	//Display the updated account balance
+	print “Thanks for using this program”  //Display the exit message 
+stop
