@@ -36,9 +36,9 @@ start
 		num newAccountBalance
 	input accountBalance		//Collect the current account balance
 	input overDrawnTimes	//Collect the number of times the account was overdrawn
-	overDrawnFee = overDrawnTimes (accountBalance * .01 – 5) //Calculate overdrawn fee
+	overDrawnFee = overDrawnTimes (accountBalance * .01 + 5) //Calculate overdrawn fee
 	newAccountBalance = accountBalance - overDrawnFee   	      //Calculate to balance
-            print overDrawnFee		//Display the overdrawn fee
+        print overDrawnFee		//Display the overdrawn fee
 	print newAccountBalance	//Display the updated account balance
 	print “Thanks for using this program”  //Display the exit message 
 stop
