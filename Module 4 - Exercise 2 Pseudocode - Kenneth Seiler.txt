@@ -1,0 +1,76 @@
+Kenneth Seiler
+
+SDEV 120
+
+Module 4 Assignment - Understanding Structures
+
+11/04/2024
+
+
+Exercise #1
+===========
+
+// This is a guessing game. The program asks the user to guess a number between 1 
+// and 100 then the program outputs if the guess is too high or too low.  
+// The process continues until the player guesses the correct number.
+
+start
+
+    declare num answer=34   // declaring the varible for the correct guess.
+    
+
+        //Use a loop to see if the guess equals the correct guess
+        //!= means does not equal
+        
+        do while userGuess != answer                               
+            
+                input userGuess //Ask the user to guess between 1 and 100.            
+
+                //If statement to determine if guess is lower than answer
+                if userGuess < answer then                       
+                    print "The answer is too low. Try Again."  
+                //Else statement to determine if guess is higer than answer
+                 else userGuess > answer then                    
+                    print "The answer is too high. Try Again."
+                endif
+
+       end loop //Answer is correct so the loop ends
+   
+    //Once loop ends program outputs this message.
+    print "THAT'S CORRECT!! GOOD JOB!!"                         
+        
+stop
+
+
+Exercise #2
+===========
+
+// This is a program that looks up in a dictionary
+
+start
+
+     //Declaring a variable the word we are searching for.
+    //Delcaring a variable for the Word that we are looking at 
+    //in the dictionary
+
+    declare findWord                                        
+    declare dictionaryWord                                   
+        
+         //Use a loop to determine if we are looking at the desired word
+         // != means does not equal
+        
+        do while findWord != cup                           
+         
+            //if statment to determine which direction we need to look
+            if dictionaryWord comes before findWord then    
+                go forward one word
+            else
+                go back a word 
+            endif
+    
+        end loop    //End loop once the word is found
+
+    output the definition  
+
+stop
+        
