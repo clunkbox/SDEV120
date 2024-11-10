@@ -1,0 +1,57 @@
+Kenneth Seiler
+
+SDEV 120
+
+Module 5 Assignment - Applying Principles of Structured Programming
+
+11/10/2024
+           
+
+Planning a Jeopardy game program.
+===================================
+Game Starts
+
+Player is promted for their name
+
+First round categories are revealed 
+    - 3 categories with 3 rounds each (9 total clues)
+    - first round clue dollar amounts are: ($100 - $500)
+Player (me) chooses category and clue using the dollar amount
+Alex Trebek (host) reads the clue
+    - Player must ring buzzard to respond with 5 second time limit
+    - Player has 5 seconds to respond to clue
+    - If responded within time limit correctly then dollar amount is added to score
+    - If responded incorrectly or time limit runs out then dollar amount is subtracted from score
+Player chooses next category and clue using the dollar amount
+Then round continues as previously mentioned until:
+    - All clues have been seen
+    
+Second round categories are revealed 
+    - 3 categories with 3 rounds each (9 total clues)
+    - first round clue dollar amounts are: ($200 - $1000)
+Player (me) chooses category and clue using the dollar amount    
+Alex Trebek (host) reads the clue
+    - Player must ring buzzard to respond with 5 second time limit
+    - Player has 5 seconds to respond to clue
+    - If responded within time limit correctly then dollar amount is added to score
+    - If responded incorrectly or time limit runs out then dollar amount is subtracted from score
+Player chooses next category and clue using the dollar amount
+Then round continues as previously mentioned until:
+    - All clues have been seen
+   
+Final Jeopardy Round is annouced
+    - If Player has less than $1 then game is over
+    - If Player has $1 or more then they are prompted to make a wager.
+Alex Trebek reads final Jeopardy clue
+Player has 30 seconds to respond
+    - If player responds correctly within time limit then wager is added to score
+    - If player responds incorrectly or time limit runs out then wager is subtraced from score
+Final score is revealed and a "Thank you for playing" message is displayed
+    - If players final score is higher than a score on the high scores list then their name is
+        added to high scores and game ends
+    - Else game ends
+
+Game Stops
+
+
+
